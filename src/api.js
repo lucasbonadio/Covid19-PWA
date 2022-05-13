@@ -11,6 +11,9 @@ function getCountry(country) {
     .then((response) => response.json())
 }
 
-export default {
+const logger = {
     getCountry
-}
+};
+
+export default logger;
+
